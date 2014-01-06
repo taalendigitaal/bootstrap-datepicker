@@ -304,8 +304,8 @@
 		},
 
 		show: function(e) {
-			if (this.component && this.date && e.type === 'focus')
-                return;
+			if (this.o.showOnEmpty && this.component && this.date && e.type === 'focus')
+				return;
 			if (!this.isInline)
 				this.picker.appendTo('body');
 			this.picker.show();
