@@ -3,7 +3,7 @@
  * Taal&Digitaal <info@taalendigitaal.nl>
  */
 ;(function($){
-	$.fn.datepicker.dates['fr-NL'] = {
+	$.fn.datepicker.dates['fy-NL'] = {
 		days: ["Snein", "Moandei", "Tiisdei", "Woansdei", "Tongersdei", "Freed", "Sneon", "Snein"],
 		daysShort: ["Sne", "Moa", "Tii", "Woa", "Ton", "Fre", "Sat", "Sne"],
 		daysMin: ["Sn", "Mo", "Ti", "Wo", "To", "Fr", "Sa", "Sn"],
