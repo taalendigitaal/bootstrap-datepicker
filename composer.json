@@ -3,7 +3,9 @@
     "description": "Bootstrap Datepicker",
     "type": "component",
     "require": {
-        "robloach/component-installer": "*"
+        "robloach/component-installer": "*",
+        "components/bootstrap" : ">=2.0, <4.0",
+        "components/jquery": ">=1.7.1, <4.0.0"
     },
     "extra": {
         "component": {
@@ -11,7 +13,7 @@
                 "js/bootstrap-datepicker.js"
             ],
             "styles": [
-                "css/datepicker.css"
+                "dist/css/bootstrap-datepicker3.css",
             ],
             "files": [
                 "js/locales/bootstrap-datepicker.*.js"
